@@ -11,6 +11,9 @@ import (
 // global variable
 
 var data wStruct
+{
+	ImageURL string `json:"imageUrl"`
+}
 
 // made a simple struct that uses the ImageUrl received in json Payload. You can add these 
 // to the struct to get more information.
@@ -29,9 +32,7 @@ var data wStruct
 //	Title    string `json:"title"`
 //}
 
-{
-	ImageURL string `json:"imageUrl"`
-}
+
 
 // main that starts 8045/, and 8045 /alert
 
