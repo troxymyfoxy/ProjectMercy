@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"text/template"
 )
+// global variable
 
 var data wStruct
 
