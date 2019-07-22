@@ -39,7 +39,7 @@ func handleWebhook(w http.ResponseWriter, r *http.Request) {
 		log.Fatal(jsonErr)
 		return
 	}
-	fmt.Println("got webhook payload: ", data) // I want to pass this to handleMainPage
+	fmt.Println("got webhook payload: ", data)
 
 }
 
